@@ -1,0 +1,96 @@
+{
+  "app": "superset",
+  "entrypoints": {
+    "preamble": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.6f4ecbc3d2e23e236060.entry.js",
+        "/static/assets/3185.f10541918219d72b470f.entry.js",
+        "/static/assets/1203.a1e986c5d8f5a4c4375a.entry.js",
+        "/static/assets/616.94c331d4202698eb2aa9.entry.js",
+        "/static/assets/preamble.541b447d633f63793b80.entry.js"
+      ]
+    },
+    "theme": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.6f4ecbc3d2e23e236060.entry.js",
+        "/static/assets/3185.f10541918219d72b470f.entry.js",
+        "/static/assets/theme.fb1e9bd85f522ab4b1f6.entry.js"
+      ]
+    },
+    "menu": {
+      "css": [
+        "/static/assets/8706.6dfab372988d20453152.entry.css"
+      ],
+      "js": [
+        "/static/assets/vendors.6f4ecbc3d2e23e236060.entry.js",
+        "/static/assets/3185.f10541918219d72b470f.entry.js",
+        "/static/assets/1203.a1e986c5d8f5a4c4375a.entry.js",
+        "/static/assets/8706.6dfab372988d20453152.entry.js",
+        "/static/assets/616.94c331d4202698eb2aa9.entry.js",
+        "/static/assets/8115.b1f8cee824d849099ff3.entry.js",
+        "/static/assets/6707.35038bbaa024309b7dd8.entry.js",
+        "/static/assets/8085.4bc9b7059e85ba458bcb.entry.js",
+        "/static/assets/menu.d3dc9872ca9315b0ade6.entry.js"
+      ]
+    },
+    "spa": {
+      "css": [
+        "/static/assets/8706.6dfab372988d20453152.entry.css"
+      ],
+      "js": [
+        "/static/assets/vendors.6f4ecbc3d2e23e236060.entry.js",
+        "/static/assets/thumbnail.824b899f1b7b91c556af.entry.js",
+        "/static/assets/3185.f10541918219d72b470f.entry.js",
+        "/static/assets/952.fcf16880ee68d8064d11.entry.js",
+        "/static/assets/1203.a1e986c5d8f5a4c4375a.entry.js",
+        "/static/assets/8706.6dfab372988d20453152.entry.js",
+        "/static/assets/5037.d56aa78e5779995d016c.entry.js",
+        "/static/assets/1541.56876400fc511af10839.entry.js",
+        "/static/assets/2290.4aef28ca85361c2fdbd3.entry.js",
+        "/static/assets/7634.0acd07e01787179c928e.entry.js",
+        "/static/assets/616.94c331d4202698eb2aa9.entry.js",
+        "/static/assets/8115.b1f8cee824d849099ff3.entry.js",
+        "/static/assets/6934.9afbba59e4bb25c0c44e.entry.js",
+        "/static/assets/180.4f9024017a377ac30f78.entry.js",
+        "/static/assets/6707.35038bbaa024309b7dd8.entry.js",
+        "/static/assets/9059.b2f889ad23bd80f99e2a.entry.js",
+        "/static/assets/8085.4bc9b7059e85ba458bcb.entry.js",
+        "/static/assets/2795.af7b90bb1b1f9b21e098.entry.js",
+        "/static/assets/spa.75f58c053056fc51f1b6.entry.js"
+      ]
+    },
+    "embedded": {
+      "css": [
+        "/static/assets/8706.6dfab372988d20453152.entry.css"
+      ],
+      "js": [
+        "/static/assets/vendors.6f4ecbc3d2e23e236060.entry.js",
+        "/static/assets/thumbnail.824b899f1b7b91c556af.entry.js",
+        "/static/assets/3185.f10541918219d72b470f.entry.js",
+        "/static/assets/952.fcf16880ee68d8064d11.entry.js",
+        "/static/assets/1203.a1e986c5d8f5a4c4375a.entry.js",
+        "/static/assets/8706.6dfab372988d20453152.entry.js",
+        "/static/assets/5037.d56aa78e5779995d016c.entry.js",
+        "/static/assets/1541.56876400fc511af10839.entry.js",
+        "/static/assets/2290.4aef28ca85361c2fdbd3.entry.js",
+        "/static/assets/616.94c331d4202698eb2aa9.entry.js",
+        "/static/assets/8115.b1f8cee824d849099ff3.entry.js",
+        "/static/assets/6934.9afbba59e4bb25c0c44e.entry.js",
+        "/static/assets/180.4f9024017a377ac30f78.entry.js",
+        "/static/assets/88.5ff0a59a88e2c9038ade.entry.js",
+        "/static/assets/9059.b2f889ad23bd80f99e2a.entry.js",
+        "/static/assets/embedded.ca778c9454042915ed9e.entry.js"
+      ]
+    },
+    "service-worker": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.6f4ecbc3d2e23e236060.entry.js",
+        "/static/assets/3185.f10541918219d72b470f.entry.js",
+        "/static/assets/../service-worker.js"
+      ]
+    }
+  }
+}
