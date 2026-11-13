@@ -206,6 +206,8 @@ COPY --from=frontend /static/assets superset/static/assets
 
 # TODO, when the next version comes out, use --exclude superset/translations
 COPY superset superset
+
+COPY --from=frontend /static/service-worker.js superset/static/service-worker.js
 # TODO in the meantime, remove the .po files
 RUN rm superset/translations/*/*/*.po
 
@@ -292,5 +294,9 @@ CMD ["/app/docker/entrypoints/docker-ci.sh"]
 
 FROM scratch AS frontend-artifacts
 
+
 COPY --from=superset-node /app/superset/static/assets /static/assets
+
+COPY --from=superset-node /app/superset/static/service-worker.js /static/service-worker.js
+
 COPY --from=superset-node /app/superset/translations /translations
